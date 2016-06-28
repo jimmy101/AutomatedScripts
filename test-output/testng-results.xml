@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="72680" started-at="2016-06-24T16:14:06Z" finished-at="2016-06-24T16:15:19Z">
+    <groups>
+    </groups>
+    <test name="Android" duration-ms="72680" started-at="2016-06-24T16:14:06Z" finished-at="2016-06-24T16:15:19Z">
+      <class name="com.androidTests.LogInLogoutTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.androidTests.LogInLogoutTest@1c06d198]" name="setUp" is-config="true" duration-ms="11893" started-at="2016-06-24T17:14:36Z" finished-at="2016-06-24T17:14:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginLogout()[pri:0, instance:com.androidTests.LogInLogoutTest@1c06d198]" name="loginLogout" duration-ms="30626" started-at="2016-06-24T17:14:48Z" finished-at="2016-06-24T17:15:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginLogout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.androidTests.LogInLogoutTest@1c06d198]" name="tearDown" is-config="true" duration-ms="728" started-at="2016-06-24T17:15:18Z" finished-at="2016-06-24T17:15:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.androidTests.LogInLogoutTest -->
+      <class name="com.androidTests.ForSaleRandomNumBedSearchTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.androidTests.ForSaleRandomNumBedSearchTest@77036a6b]" name="setUp" is-config="true" duration-ms="9022" started-at="2016-06-24T17:14:06Z" finished-at="2016-06-24T17:14:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="forSaleSearchRandomNumBedrooms()[pri:0, instance:com.androidTests.ForSaleRandomNumBedSearchTest@77036a6b]" name="forSaleSearchRandomNumBedrooms" duration-ms="19621" started-at="2016-06-24T17:14:15Z" finished-at="2016-06-24T17:14:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forSaleSearchRandomNumBedrooms -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.androidTests.ForSaleRandomNumBedSearchTest@77036a6b]" name="tearDown" is-config="true" duration-ms="773" started-at="2016-06-24T17:14:35Z" finished-at="2016-06-24T17:14:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.androidTests.ForSaleRandomNumBedSearchTest -->
+    </test> <!-- Android -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <test name="Android(failed)">
+    <classes>
+      <class name="com.firsTime.app.forSaleSearch">
+        <methods>
+          <include name="setUp"/>
+          <include name="forSaleSearchRandomNumBedrooms"/>
+        </methods>
+      </class> <!-- com.firsTime.app.forSaleSearch -->
+      <class name="com.firsTime.app.AndroidSecond">
+        <methods>
+          <include name="loginLogout"/>
+        </methods>
+      </class> <!-- com.firsTime.app.AndroidSecond -->
+    </classes>
+  </test> <!-- Android(failed) -->
+</suite> <!-- Failed suite [Suite] -->

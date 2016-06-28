@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Android(failed)">
+    <classes>
+      <class name="com.androidTests.ForSaleRandomNumBedSearchTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.androidTests.ForSaleRandomNumBedSearchTest -->
+      <class name="com.androidTests.LogInLogoutTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginLogout"/>
+        </methods>
+      </class> <!-- com.androidTests.LogInLogoutTest -->
+    </classes>
+  </test> <!-- Android(failed) -->
+</suite> <!-- Failed suite [Suite] -->

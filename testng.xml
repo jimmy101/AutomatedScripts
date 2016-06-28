@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" name="Suite">
+
+    <test name="Android">  
+         
+   <classes>
+    
+      <class name="com.androidTests.ForSaleRandomNumBedSearchTest"/> 
+      <class name="com.androidTests.LogInLogoutTest"/> 
+       
+   </classes>
+ </test>
+ 
+ <!--  <test name="Androids">    
+     <parameter name="Device_ID" value="0815f83236962004"></parameter>
+    <classes>    
+    <class name="com.firsTime.app.AndroidSecond"/> 
+   </classes>
+ </test> -->
+ 
+</suite> 
